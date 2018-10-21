@@ -1,0 +1,11 @@
+user: prof1
+pass: 123456
+
+user: prof2
+pass: 123456
+
+user: stud1
+pass: 123456
+
+user: stud2
+pass: 123456
