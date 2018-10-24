@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{d65276f6-5fe5-4569-9406-f81f9fc58ee2}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CharBuffer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SerialManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CharBuffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GlobalTypes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SerialManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Timer.h" />
+  </ItemGroup>
+</Project>

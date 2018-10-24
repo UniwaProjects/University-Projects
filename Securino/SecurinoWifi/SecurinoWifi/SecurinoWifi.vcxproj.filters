@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SharedCode">
+      <UniqueIdentifier>{7740c2d5-c053-4056-8c8a-5661f75f46ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SavedData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UbidotsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SecurinoCore\SecurinoCore\CharBuffer.h">
+      <Filter>SharedCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SecurinoCore\SecurinoCore\GlobalTypes.h">
+      <Filter>SharedCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SecurinoCore\SecurinoCore\SerialManager.h">
+      <Filter>SharedCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SecurinoCore\SecurinoCore\Timer.h">
+      <Filter>SharedCode</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecializedSerial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SavedData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UbidotsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SecurinoCore\SecurinoCore\CharBuffer.cpp">
+      <Filter>SharedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SecurinoCore\SecurinoCore\SerialManager.cpp">
+      <Filter>SharedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SecurinoCore\SecurinoCore\Timer.cpp">
+      <Filter>SharedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecializedSerial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SecurinoWifi.ino" />
+  </ItemGroup>
+</Project>
